@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box model:border,margin and padding</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container{
+            color: rgb(228, 19, 36);
+            background-color: yellow;
+            border: 6px double purple;
+            margin: 33px;
+            /* padding: 40px; */
+            /* we can set margin/padding for top,left,bottom,right individually */
+            /* padding-top: 70px;
+            padding-left: 69px;
+            padding-right: 70px; */
+
+            /* padding/margin = top right bottom left */
+            padding:45px 100px 78px 67px;
+            /* padding:y(top/bottom) x(left/right); */
+            height: 500px;
+            width:500px;
+            border-radius:30px
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>This is my heading.</h2>
+        <p id="firstpara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius sequi, laboriosam suscipit accusamus fuga aliquid itaque sit consectetur assumenda numquam magni illo excepturi atque et mollitia deserunt quis eos quaerat iure sunt veniam debitis, cumque inventore laudantium? Culpa dolorem exercitationem totam voluptas sequi, incidunt, ad non, ducimus deleniti aliquam consectetur.</p></div>
+    <div class="container">
+        <h2>This is my heading.</h2>
+        <p id="secondpara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius sequi, laboriosam suscipit accusamus fuga aliquid itaque sit consectetur assumenda numquam magni illo excepturi atque et mollitia deserunt quis eos quaerat iure sunt veniam debitis, cumque inventore laudantium? Culpa dolorem exercitationem totam voluptas sequi, incidunt, ad non, ducimus deleniti aliquam consectetur.</p></div>
+    <div class="container">
+        <h2>This is my heading.</h2>
+        <p id="thirdpara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius sequi, laboriosam suscipit accusamus fuga aliquid itaque sit consectetur assumenda numquam magni illo excepturi atque et mollitia deserunt quis eos quaerat iure sunt veniam debitis, cumque inventore laudantium? Culpa dolorem exercitationem totam voluptas sequi, incidunt, ad non, ducimus deleniti aliquam consectetur.</p></div>
+        
+    </div>
+    
+</body>
+</html>
